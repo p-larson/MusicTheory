@@ -11,26 +11,10 @@
 		1AF5FB3622B3A3E9005D6D6E /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2522B3A3E9005D6D6E /* Pitch.swift */; };
 		1AF5FB3722B3A3E9005D6D6E /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2522B3A3E9005D6D6E /* Pitch.swift */; };
 		1AF5FB3822B3A3E9005D6D6E /* Pitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2522B3A3E9005D6D6E /* Pitch.swift */; };
-		1AF5FB3922B3A3E9005D6D6E /* Info-TV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2622B3A3E9005D6D6E /* Info-TV.plist */; };
-		1AF5FB3A22B3A3E9005D6D6E /* Info-TV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2622B3A3E9005D6D6E /* Info-TV.plist */; };
-		1AF5FB3B22B3A3E9005D6D6E /* Info-TV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2622B3A3E9005D6D6E /* Info-TV.plist */; };
-		1AF5FB3C22B3A3E9005D6D6E /* Info-TV.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2622B3A3E9005D6D6E /* Info-TV.plist */; };
 		1AF5FB3D22B3A3E9005D6D6E /* Accidental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2722B3A3E9005D6D6E /* Accidental.swift */; };
 		1AF5FB3E22B3A3E9005D6D6E /* Accidental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2722B3A3E9005D6D6E /* Accidental.swift */; };
 		1AF5FB3F22B3A3E9005D6D6E /* Accidental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2722B3A3E9005D6D6E /* Accidental.swift */; };
 		1AF5FB4022B3A3E9005D6D6E /* Accidental.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2722B3A3E9005D6D6E /* Accidental.swift */; };
-		1AF5FB4122B3A3E9005D6D6E /* Info-Mac.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2822B3A3E9005D6D6E /* Info-Mac.plist */; };
-		1AF5FB4222B3A3E9005D6D6E /* Info-Mac.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2822B3A3E9005D6D6E /* Info-Mac.plist */; };
-		1AF5FB4322B3A3E9005D6D6E /* Info-Mac.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2822B3A3E9005D6D6E /* Info-Mac.plist */; };
-		1AF5FB4422B3A3E9005D6D6E /* Info-Mac.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2822B3A3E9005D6D6E /* Info-Mac.plist */; };
-		1AF5FB4522B3A3E9005D6D6E /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2922B3A3E9005D6D6E /* Info-iOS.plist */; };
-		1AF5FB4622B3A3E9005D6D6E /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2922B3A3E9005D6D6E /* Info-iOS.plist */; };
-		1AF5FB4722B3A3E9005D6D6E /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2922B3A3E9005D6D6E /* Info-iOS.plist */; };
-		1AF5FB4822B3A3E9005D6D6E /* Info-iOS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2922B3A3E9005D6D6E /* Info-iOS.plist */; };
-		1AF5FB4922B3A3E9005D6D6E /* Info-Watch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2A22B3A3E9005D6D6E /* Info-Watch.plist */; };
-		1AF5FB4A22B3A3E9005D6D6E /* Info-Watch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2A22B3A3E9005D6D6E /* Info-Watch.plist */; };
-		1AF5FB4B22B3A3E9005D6D6E /* Info-Watch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2A22B3A3E9005D6D6E /* Info-Watch.plist */; };
-		1AF5FB4C22B3A3E9005D6D6E /* Info-Watch.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB2A22B3A3E9005D6D6E /* Info-Watch.plist */; };
 		1AF5FB4D22B3A3E9005D6D6E /* MusicTheory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF5FB2B22B3A3E9005D6D6E /* MusicTheory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AF5FB4E22B3A3E9005D6D6E /* MusicTheory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF5FB2B22B3A3E9005D6D6E /* MusicTheory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1AF5FB4F22B3A3E9005D6D6E /* MusicTheory.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AF5FB2B22B3A3E9005D6D6E /* MusicTheory.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -69,8 +53,11 @@
 		1AF5FB7422B3A3E9005D6D6E /* Scale.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5FB3422B3A3E9005D6D6E /* Scale.swift */; };
 		1AF5FB7B22B3A687005D6D6E /* MusicTheoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5FB7722B3A687005D6D6E /* MusicTheoryTests.swift */; };
 		1AF5FB7C22B3A687005D6D6E /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AF5FB7822B3A687005D6D6E /* XCTestManifests.swift */; };
-		1AF5FB7D22B3A687005D6D6E /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1AF5FB7922B3A687005D6D6E /* Info.plist */; };
 		B23E8EC11F1C2BAE0094D316 /* MusicTheory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B219CC291E4CFBAF0060A6B6 /* MusicTheory.framework */; };
+		D0604EAF24D0976F00C2EAFC /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCA1F824CF729400B586B9 /* Measure.swift */; };
+		D0604EB024D0976F00C2EAFC /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCA1F824CF729400B586B9 /* Measure.swift */; };
+		D0604EB124D0977000C2EAFC /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCA1F824CF729400B586B9 /* Measure.swift */; };
+		D0BCA1F924CF729400B586B9 /* Measure.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0BCA1F824CF729400B586B9 /* Measure.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -108,6 +95,7 @@
 		B219CC291E4CFBAF0060A6B6 /* MusicTheory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MusicTheory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B22EB5C920DD2396003927AA /* Playground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Playground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		B23E8EBC1F1C2BAE0094D316 /* MusicTheoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicTheoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0BCA1F824CF729400B586B9 /* Measure.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Measure.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +164,7 @@
 				1AF5FB3422B3A3E9005D6D6E /* Scale.swift */,
 				1AF5FB3022B3A3E9005D6D6E /* Tempo.swift */,
 				1AF5FB3122B3A3E9005D6D6E /* TimeSignature.swift */,
+				D0BCA1F824CF729400B586B9 /* Measure.swift */,
 			);
 			path = MusicTheory;
 			sourceTree = "<group>";
@@ -355,13 +344,13 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 1020;
+				LastUpgradeCheck = 1160;
 				ORGANIZATIONNAME = cemolcay;
 				TargetAttributes = {
 					B219CC011E4CFB870060A6B6 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 77Y3N48SNF;
-						LastSwiftMigration = 0930;
+						LastSwiftMigration = 1160;
 						ProvisioningStyle = Automatic;
 					};
 					B219CC0E1E4CFB970060A6B6 = {
@@ -417,10 +406,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF5FB4522B3A3E9005D6D6E /* Info-iOS.plist in Resources */,
-				1AF5FB4122B3A3E9005D6D6E /* Info-Mac.plist in Resources */,
-				1AF5FB4922B3A3E9005D6D6E /* Info-Watch.plist in Resources */,
-				1AF5FB3922B3A3E9005D6D6E /* Info-TV.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +413,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF5FB4622B3A3E9005D6D6E /* Info-iOS.plist in Resources */,
-				1AF5FB4222B3A3E9005D6D6E /* Info-Mac.plist in Resources */,
-				1AF5FB4A22B3A3E9005D6D6E /* Info-Watch.plist in Resources */,
-				1AF5FB3A22B3A3E9005D6D6E /* Info-TV.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,10 +420,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF5FB4722B3A3E9005D6D6E /* Info-iOS.plist in Resources */,
-				1AF5FB4322B3A3E9005D6D6E /* Info-Mac.plist in Resources */,
-				1AF5FB4B22B3A3E9005D6D6E /* Info-Watch.plist in Resources */,
-				1AF5FB3B22B3A3E9005D6D6E /* Info-TV.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -450,10 +427,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF5FB4822B3A3E9005D6D6E /* Info-iOS.plist in Resources */,
-				1AF5FB4422B3A3E9005D6D6E /* Info-Mac.plist in Resources */,
-				1AF5FB4C22B3A3E9005D6D6E /* Info-Watch.plist in Resources */,
-				1AF5FB3C22B3A3E9005D6D6E /* Info-TV.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,7 +434,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1AF5FB7D22B3A687005D6D6E /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -474,6 +446,7 @@
 			files = (
 				1AF5FB7122B3A3E9005D6D6E /* Scale.swift in Sources */,
 				1AF5FB5122B3A3E9005D6D6E /* Interval.swift in Sources */,
+				D0BCA1F924CF729400B586B9 /* Measure.swift in Sources */,
 				1AF5FB5522B3A3E9005D6D6E /* Chord.swift in Sources */,
 				1AF5FB6122B3A3E9005D6D6E /* Tempo.swift in Sources */,
 				1AF5FB6522B3A3E9005D6D6E /* TimeSignature.swift in Sources */,
@@ -491,6 +464,7 @@
 			files = (
 				1AF5FB7222B3A3E9005D6D6E /* Scale.swift in Sources */,
 				1AF5FB5222B3A3E9005D6D6E /* Interval.swift in Sources */,
+				D0604EAF24D0976F00C2EAFC /* Measure.swift in Sources */,
 				1AF5FB5622B3A3E9005D6D6E /* Chord.swift in Sources */,
 				1AF5FB6222B3A3E9005D6D6E /* Tempo.swift in Sources */,
 				1AF5FB6622B3A3E9005D6D6E /* TimeSignature.swift in Sources */,
@@ -508,6 +482,7 @@
 			files = (
 				1AF5FB7322B3A3E9005D6D6E /* Scale.swift in Sources */,
 				1AF5FB5322B3A3E9005D6D6E /* Interval.swift in Sources */,
+				D0604EB024D0976F00C2EAFC /* Measure.swift in Sources */,
 				1AF5FB5722B3A3E9005D6D6E /* Chord.swift in Sources */,
 				1AF5FB6322B3A3E9005D6D6E /* Tempo.swift in Sources */,
 				1AF5FB6722B3A3E9005D6D6E /* TimeSignature.swift in Sources */,
@@ -525,6 +500,7 @@
 			files = (
 				1AF5FB7422B3A3E9005D6D6E /* Scale.swift in Sources */,
 				1AF5FB5422B3A3E9005D6D6E /* Interval.swift in Sources */,
+				D0604EB124D0977000C2EAFC /* Measure.swift in Sources */,
 				1AF5FB5822B3A3E9005D6D6E /* Chord.swift in Sources */,
 				1AF5FB6422B3A3E9005D6D6E /* Tempo.swift in Sources */,
 				1AF5FB6822B3A3E9005D6D6E /* TimeSignature.swift in Sources */,
@@ -574,7 +550,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
@@ -597,7 +573,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
@@ -725,7 +701,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "x86_64 armv7 armv7s amr64 amr64e x86_64 x86_64-apple-macos";
 			};
 			name = Debug;
 		};
@@ -750,7 +726,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_VERSION = 5.0;
-				VALID_ARCHS = x86_64;
+				VALID_ARCHS = "x86_64 armv7 armv7s amr64 amr64e x86_64 x86_64-apple-macos";
 			};
 			name = Release;
 		};

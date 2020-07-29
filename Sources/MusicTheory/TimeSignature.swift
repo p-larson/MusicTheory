@@ -12,38 +12,44 @@ import Foundation
 
 /// Defines how many beats in a measure with which note value.
 public struct TimeSignature: Codable, CustomStringConvertible {
-  /// Beats per measure.
-  public var beats: Int
-  /// Note value per beat.
-  public var noteValue: NoteValueType
-
-  /// Initilizes the time signature with beats per measure and the value of the notes in beat.
-  ///
-  /// - Parameters:
-  ///   - beats: Number of beats in a measure
-  ///   - noteValue: Note value of the beats.
-  public init(beats: Int = 4, noteValue: NoteValueType = .quarter) {
-    self.beats = beats
-    self.noteValue = noteValue
-  }
-
-  /// Initilizes the time signature with beats per measure and the value of the notes in beat. Returns nil if a division is not match a `NoteValue`.
-  ///
-  /// - Parameters:
-  ///   - beats: Number of beats in a measure
-  ///   - division: Number of the beats.
-  public init?(beats: Int, division: Int) {
-    guard let noteValue = NoteValueType(rawValue: Double(division)) else {
-      return nil
+    /// Beats per measure.
+    public var beats: Int
+    /// Note value per beat.
+    public var noteValue: NoteValueType
+    
+    /// Initilizes the time signature with beats per measure and the value of the notes in beat.
+    ///
+    /// - Parameters:
+    ///   - beats: Number of beats in a measure
+    ///   - noteValue: Note value of the beats.
+    public init(beats: Int = 4, noteValue: NoteValueType = .quarter) {
+        self.beats = beats
+        self.noteValue = noteValue
     }
-
-    self.beats = beats
-    self.noteValue = noteValue
-  }
-
-  // MARK: CustomStringConvertible
-
-  public var description: String {
-    return "\(beats)/\(Int(noteValue.rawValue))"
-  }
+    
+    /// Initilizes the time signature with beats per measure and the value of the notes in beat. Returns nil if a division is not match a `NoteValue`.
+    ///
+    /// - Parameters:
+    ///   - beats: Number of beats in a measure
+    ///   - division: Number of the beats.
+    public init?(beats: Int, division: Int) {
+        guard let noteValue = NoteValueType(rawValue: Double(division)) else {
+            return nil
+        }
+        
+        self.beats = beats
+        self.noteValue = noteValue
+    }
+    
+    // MARK: CustomStringConvertible
+    
+    public var description: String {
+        return "\(beats)/\(Int(noteValue.rawValue))"
+    }
+    
+    // MARK: Properties
+    
+    public var duration: TimeInterval {
+        Double(beats) * noteValue.rawValue
+    }
 }

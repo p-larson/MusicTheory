@@ -59,19 +59,42 @@ public func / (noteValue: NoteValue, noteValueType: NoteValueType) -> Double {
 }
 
 /// Defines the duration of a note beatwise.
-public struct NoteValue: Codable {
-  /// Type that represents the duration of note.
-  public var type: NoteValueType
-  /// Modifier for `NoteType` that modifies the duration.
-  public var modifier: NoteModifier
+public protocol NoteValue {
+    /// Type that represents the duration of note.
+    var type: NoteValueType { get }
+    /// Modifier for `NoteType` that modifies the duration.
+    var modifier: NoteModifier { get }
+}
 
-  /// Initilize the NoteValue with its type and optional modifier.
-  ///
-  /// - Parameters:
-  ///   - type: Type of note value that represents note duration.
-  ///   - modifier: Modifier of note value. Defaults `default`.
-  public init(type: NoteValueType, modifier: NoteModifier = .default) {
-    self.type = type
-    self.modifier = modifier
-  }
+public struct KeyNote: NoteValue {
+    public var type: NoteValueType
+    public var modifier: NoteModifier
+    public var key: Key
+    
+    /// Initilize the KeyNote with its type and optional modifier.
+    ///
+    /// - Parameters:
+    ///   - type: Type of note value that represents note duration.
+    ///   - modifier: Modifier of note value. Defaults `default`.
+    ///   - key: Key of the note.
+    public init(type: NoteValueType, modifier: NoteModifier = .default, key: Key) {
+        self.type = type
+        self.modifier = modifier
+        self.key = key
+    }
+}
+
+public struct RestNote: NoteValue {
+    public var type: NoteValueType
+    public var modifier: NoteModifier
+    
+    /// Initilize the RestNote with its type and optional modifier.
+    ///
+    /// - Parameters:
+    ///   - type: Type of note value that represents note duration.
+    ///   - modifier: Modifier of note value. Defaults `default`.
+    public init(type: NoteValueType, modifier: NoteModifier = .default) {
+        self.type = type
+        self.modifier = modifier
+    }
 }
