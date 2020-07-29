@@ -123,6 +123,11 @@ let cSharpHarmonicMinorTriadsProgression = progression.chords(
 - You can calculate notes duration in any tempo by ther `NoteValue`.
 - Note value defines the note's duration in a beat. It could be whole note, half note, quarter note, 8th, 16th or 32nd note.
 
+#### `Measure`
+
+- A Bar is a collection of present Note Values.
+- Each Bar may contain multiple `KeyNotes` or left empty, consequently representing `RestNote`'s.
+- Measure, interchangable with Bar, holds a NoteMap, TimeSignature, and `Bar.Line`.
 
 #### `HarmonicFunctions`
 
@@ -141,7 +146,7 @@ Playgrounds
 
 Documentation
 ----
-
+**Not Updated to Larson Fork.**
 [Full documentation is here](https://cemolcay.github.io/MusicTheory/)
 
 Unit Tests
@@ -149,15 +154,3 @@ Unit Tests
 
 You can find unit tests in `MusicTheoryTests` target.  
 Press `⌘+U` for running tests.
-
-AppStore
-----
-
-This library battle tested in my apps for iOS, macOS, watchOS and tvOS, check them out!  
-[KeyBud](https://itunes.apple.com/us/app/keybud-music-theory-app/id1203856335?mt=8) (iOS, watchOS, tvOS, macOS)  
-[FretBud](https://itunes.apple.com/us/app/fretbud-chord-scales-for-guitar-bass-and-more/id1234224249?mt=8) (iOS, watchOS, tvOS)  
-[ChordBud](https://itunes.apple.com/us/app/chordbud-chord-progressions/id1313017378?mt=8) (iOS)  
-[ArpBud](https://itunes.apple.com/us/app/arpbud-midi-sequencer-more/id1349342326?ls=1&mt=8) (iOS)  
-[ScaleBud](https://itunes.apple.com/us/app/scalebud-auv3-midi-keyboard/id1409125865?ls=1&mt=8) (iOS, AUv3)  
-[StepBud](https://itunes.apple.com/us/app/stepbud-auv3-midi-sequencer/id1453104408?mt=8) (iOS, AUv3)  
-[RhythmBud](https://apps.apple.com/us/app/rhythmbud-auv3-midi-fx/id1484320891#) (iOS, AUv3)
