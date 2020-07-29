@@ -3,9 +3,14 @@ MusicTheory [![Build Status](https://travis-ci.org/cemolcay/MusicTheory.svg?bran
 
 A music theory library with `Key`, `Pitch`, `Interval`, `Scale` and `Chord` representations in swift enums.
 
+Peter Larson's Goal
+=== 
+
+Provide fundamental data structures of music theory to represent music notation.
+
 Requirements
 ----
-* Swift 4.0+
+* Swift 5.0+
 * iOS 8.0+
 * macOS 10.9+
 * tvOS 9.0+
